@@ -125,11 +125,6 @@
 		ul.style li:first-child
 		{
 		}
-		
-		ul.style a
-		{
-			color: #774535 !important;
-		}
 
 		ul.style1
 		{
@@ -142,11 +137,6 @@
 		
 		ul.style1 li:first-child
 		{
-		}
-		
-		ul.style1 a
-		{
-			color: #774535 !important;
 		}
 
 		ul.style1 img
@@ -248,7 +238,7 @@
 	#banner
 	{
 		position: relative;
-		background: #333 url(../images/banner.jpg) no-repeat center;
+		background: #333 url(../images/waterfall_header.jpg) no-repeat center;
 		background-size: cover;
 	}
 	
@@ -263,19 +253,20 @@
 	#main
 	{
 		position: relative;
-		padding: 6em 0em;
-		background: #261611;
-		color: #774535;
+		padding: 20px 0 0 0;
+		background: #4e0000;
+		color: #ffffff;
+        border-top: 1px solid black;
 	}
 	
 	#main header h2
 	{
-		color: #bc765f;
+		color: #56c9d6;;
 	}
 	
 	#main a
 	{
-		color: #bc765f;
+		color: #56c9d6;;
 	}
 
 /*********************************************************************************/
@@ -296,14 +287,14 @@
 	#marketing
 	{
 		position: relative;
-		padding: 6em 0em;
-		background: #372019;
-		color: #8c5240;
+		padding: 10px 0 0 0;
+		background: #4e0000;
+		color: #ffffff;
 	}
 	
 	#marketing header h2
 	{
-		color: #c0745d;
+		color: #56c9d6;;
 	}
 
 /*********************************************************************************/
@@ -315,7 +306,7 @@
 		position: relative;
 		padding: 3em 0em;
 		text-align: center;
-		color: #774535;
+		color: #56c9d6;;
 	}
 	
 	#copyright .container
@@ -325,5 +316,5 @@
 	#copyright a
 	{
 		text-decoration: none;
-		color: #774535 !important;
+		color: #56c9d6; !important;
 	}		
